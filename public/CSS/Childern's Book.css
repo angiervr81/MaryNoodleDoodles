@@ -1,17 +1,20 @@
 body, h1, nav , a { 
-    margin: 0;
-    padding: 0;
+    margin: 30;
+    padding: 30;
 }
 
 body{
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6em;
+    font-family: "Impact", sans-serif;
+    font-size: larger;
+    line-height: 1.10em;
+    letter-spacing: 0.4em ;
 }
 
 header{
  text-align: center;
  margin-bottom: 2rem;
+
 }
 
 header h1{
@@ -19,7 +22,8 @@ header h1{
     font-weight: bold;
 }
 
-nav { text-align: center;
+nav { 
+    text-align: center;
     margin-top: 1rem;
 }
 
