@@ -1,0 +1,59 @@
+body, h1, nav , a { 
+    margin: 30;
+    padding: 30;
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: "Indie Flower", cursive; /* Default font */
+    font-size: larger;
+    line-height: 1.10em;
+    letter-spacing: 0.4em ;
+}
+
+header{
+ text-align: center;
+ margin-bottom: 2rem;
+
+}
+
+header h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#logo a {
+    text-decoration: none;
+    color: #333;
+    
+}
+nav { 
+    text-align: center;
+    margin-top: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #687280;
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+
+.grid img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
