@@ -43,17 +43,22 @@ nav a:hover {
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 1rem;
-    margin-top: 2rem;
-    margin-left: 30rem;
-    margin-right: 30rem;
+   display: flex;
+   justify-content: center;
+   margin-top: 2rem;
 }
 
 .grid img {
-    display: block;
-    margin: 0 auto;
     width: 100%;
-    height: auto;
+    height: 100%;
+    max-width: 550px;
+    margin-right: 300px;
+    margin-left: auto;
+    background-blend-mode: multiply;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: column;
+    margin-left: 600px
 }
