@@ -16,7 +16,7 @@
     <header id="header">
         <!-- Lgo Section-->
          <div id="logo" data-content-field="site-title">
-           <a href="index.html"><h1 class="'text-4xl font-bold">MARYBETH BULTER RIVERA</h1></a>
+           <a href="index.html"><h1 class="text-4xl font-bold">MARYBETH BULTER RIVERA</h1></a>
          </div>
         
             <!-- Desktop Navigation -->
@@ -40,7 +40,7 @@
                 <!--<img alt="Illustration 1" class="w-full h-auto" height="200" 
                 src="images/IMG_3341.jpg" width="200"/>-->
                 <img alt="Illustration 2" class="w-full h-auto" height="200" 
-                src="images/Listen to the Rain.jpg" width="200"/> 
+                src="images/Listen to the Rain.jpg" width="200" data-info="A beautiful story about the rain!"/> 
                 <img alt="Illustration 3" class="w-full h-auto" height="200" 
                 src="images/Loud Lion Quiet Mouse.jpg" width="200"/> 
                 <img alt="Illustration 4" class="w-full h-auto" height="200" 
@@ -81,9 +81,18 @@
                 src="images/Silly Monsters at Mealtime.jpg" width="200"/>
                 <img alt="Illustration 22" class="w-full h-auto" height="200"
                 src="images/Silly Monsters in the Bath.jpg" width="200"/>
-        </div>
-    </section>
+            </div>
         </section>
     </main>
+     
+    <div id="popup-modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img id="popup-image" src="" alt="Popup Image" />
+            <p id="artist-info"></p>
+        </div>
+    </div>
+    <script src="js/childrensbookscript.js"></script>
 </body>
+ 
 </html>
