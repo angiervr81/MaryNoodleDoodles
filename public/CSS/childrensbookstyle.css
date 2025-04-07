@@ -89,4 +89,23 @@ nav a:hover {
 #popup-image {
     max-width: 100%;
     max-height: 400px;
+    margin: 0 20px;
+}
+.modal-button {
+    display: flex
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.nav-buttons {
+   background-color: transparent;
+   border: none;
+   font-size: 2rem;
+   cursor: pointer
+   color: #333;
+}
+
+.nav-buttons:hover {
+    color: #687280;
 }
