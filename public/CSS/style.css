@@ -1,0 +1,122 @@
+body, h1, nav , a { 
+    margin: 10px;
+    padding: 10px;
+}
+
+body{
+    background-color: lightskyblue;
+    font-family: "Coming Soon", cursive; /* Default font */
+    font-size: larger;
+    line-height: 1.10em;
+    letter-spacing: 0em;
+}
+
+header{
+ text-align: center;
+ margin-bottom: 2rem;
+
+}
+
+header h1{
+    font-size: 2.5rem;
+}
+
+nav { 
+    text-align: center;
+    margin-top: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #687280;
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding : 0 1rem;
+}
+
+.grid img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.icon-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.icon-bar a {
+    color: white;
+    font-size: 24px;
+    margin: 0 15px;
+}
+
+.icon-bar a:hover {
+    background-color: #f0c040;
+}
+.instagram {
+    background: #e1306c;
+    color: white;
+}
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.mySlides {
+    display: none;
+    position: relative;
+}
+
+.numbertext {
+    position: absolute;
+    padding: 8px 12px;
+    top: 0;
+    color: #fff;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+cursor{
+    cursor: pointer;
+}
