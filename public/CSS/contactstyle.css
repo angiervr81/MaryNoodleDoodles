@@ -4,11 +4,12 @@ body, h1, nav , a {
 }
 
 body{
-    background-color: #f0f0f0;
-    font-family: "Indie Flower", cursive; /* Default font */
+    background-color: lightskyblue;
+    font-family: 'Coming Soon', cursive; /* Default font */
     font-size: larger;
-    line-height: 1.10em;
+    line-height: 1.14em;
     letter-spacing: 0em ;
+    color:#333
 }
 
 header{
@@ -20,6 +21,7 @@ header{
 header h1{
     font-size: 2.5rem;
     font-weight: bold;
+    margin: 0;
 }
 #logo a {
     text-decoration: none;
@@ -47,33 +49,31 @@ nav a:hover {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+    background-color: ghostwhite;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0,1);
     width: 48%;
     max-width: 600px;
+    flex: 1;
   }
 .container p {
     font-size: 1.1rem;
     line-height: 1.6em;
+    margin-bottom: 1rem;
 }
 
-.container .p1 {
-    font-size: 1.1rem;
-    line-height: 1.5em;
-    letter-spacing: 0em;
+input, textarea{
+    border-radius: 4px;
 }
 
-
-#contact-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1; 
-    width: 50%;
+button.btn:hover{
+    background-color: gray !important;
 }
 
 .grid {
@@ -82,18 +82,33 @@ nav a:hover {
     width: 48%;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
  .image {
     max-width: 100%;
     height: auto;
+    border: 5px;
 }
 
+footer .bi{
+    transition: color 0.3s ease;
+}
+
+footer .bi:hover{
+    color: #0d6efd;
+}
 @media (max-width: 768px) {
     
     .parent{
        flex-direction: column;
         align-items: center;
+    }
+
+    .container,
+    .grid{
+        width: 100%;
+        max-width: 90%;
     }
 }
 
