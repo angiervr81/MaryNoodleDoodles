@@ -7,39 +7,85 @@
     <style>
         html {scroll-behavior: smooth;}
     </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJrT+jTwJ3F3v5fN8U4fL8b0T9Rfbn0R8JY5T4U9b6jcxgF5h57KXYzt4fP8" crossorigin="anonymous">
     <link rel="stylesheet" href="css/aboutstyle.css">
 </head>
+
 <body>
      <!--Canvas Section -->
-     <div id ="canvas"></div>
+    <div id ="canvas"></div>
 
     <header id="header">
         <!-- Lgo Section-->
-         <div id="logo" data-content-field="site-title">
-            <a href="index.html"><h1 class="'text-4xl font-bold">MARYBETH BULTER RIVERA</h1> </a>
+         <div id="logo" data-content-field="site-title" class="text-center py-3">
+            <a href="index.html">
+                <h1 class="'text-4xl font-bold">MARYBETH BULTER RIVERA</h1> 
+            </a>
          </div>
         
             <!-- Desktop Navigation -->
-                <div id="topNav" data-content-field="navigation">
-                    <nav class="main-nav">
-                        <a class="text-blue-500 mx-2" href="childrensbooks.html">Children's Books</a>
-                        <a class="text-blue-500 mx-2" href="magazines.html">Magazines</a>
-                        <a class="text-blue-500 mx-2" href="#game-design-section">Game Design</a>
-                        <a class="text-blue-500 mx-2" href="illustration.html">Illustrations</a>
-                        <a class="text-blue-500 mx-2" href="printable.html">Printable</a>
-                        <a class="text-blue-500 mx-2" href="#" >About</a>
-                        <a class="text-blue-500 mx-2" href="contact.html">Contact</a>
+                <div id="topNav" data-content-field="navigation" class="bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="<div class="container-fluid">
+                            <a class="navbar-brand" href="index.html">MaryNoodleDoodles</a>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="childrensbooks.html">Children's Books</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="magazines.html">Magazines</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#game-design-section">Game Design</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="illustration.html">Illustrations</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="printable.html">Printable</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </nav>
                 </div>
     </header>
 
-    <div class="container">
-        <h1>About Me</h1>
-        <p>Hi! I'm Marybeth. </p>
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="text-center text-md-start">About Me</h1>
+                <p class="lead text-center text-md-start">Hi! I'm Marybeth.</p>
+                <p class="lead text-center text-md-start">
+                    From a young age i have always had a passion for ast illuration. 
+                    Being at Scholastic for 10+ allowed me to pursue this as well as 
+                    gain knowledge in many different outlets of the children's publishing
+                    industry. 
+
+                    Having two young children of my own and seeing how they responds
+                    directly to my books & magazines has become an amazing eye opening
+                    experience. I absolutely love what I do and am always looking for new
+                    creative outlets to explore. I'm hoping I can share my knowledge and vision
+                    with you and your team!
+
+                    Other passions of mine include playing the piano & guitar and taking entirely
+                    too many photos of my Old English Sheepdog, Pixel.
+                </p> 
+            </div>
+            <div class=col-md-6 text-center>
+                <img alt="Illustration 1" class="image"src="images/Style_Challegne_www.instagram.com.jpeg" alt=""Illustration of Marybeth" class="img-fluid rounded shadow">
+            </div> 
+        </div>  
     </div>
-     <div class="grid" id="about-section">
-        <img alt="Illustration 1" class="image"
-        src="images/Style_Challegne_www.instagram.com.jpeg" width="200"/>
-    </div>   
 </body>
-</html>s
+</html>
