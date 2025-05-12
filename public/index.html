@@ -49,93 +49,117 @@
         </div>
     </header>
 
-        <main>
+    <main>
            <!-- Content for Children's Book -->
-            <section class=" container py-4" id ="childrensbooks-section">
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">1 / 21 </div>
-                    <img src="images/bk_Bedtime for Rainforest Babies BK.jpg" style="width:100%;">
-                </div>  
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">2 / 21 </div>
-                    <img src="images/bk_Can You Make A Happy Face.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">3 / 21</div>
-                    <img src="images/bk_Can You Turn the Page.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">4 / 21</div>
-                    <img src="images/bk_Do You Know Noses.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">5 / 21</div>
-                    <img src="images/bk_Eat Your Colors.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">6 / 21</div>
-                    <img src="images/bk_Five Little Pumpkins.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">7 / 21</div>
-                    <img src="images/bk_I Love Bunnies.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">8 / 21</div>
-                    <img src="images/bk_I Love Dinosaurs.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">9 / 21</div>
-                    <img src="images/bk_I Love Kittens.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">10 / 21</div>
-                    <img src="images/bk_I Love Puppies.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">11 / 21</div>
-                    <img src="images/bk_I Love Trucks.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">12 / 21</div>
-                    <img src="images/bk_I'm Not Ready.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">13 / 21</div>
-                    <img src="images/bk_I'm Not Tired.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">14 / 21</div>
-                    <img src="images/bk_I See Animal Colors.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">15 / 21</div>
-                    <img src="images/bk_Knock, Knock! Who's There.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">16 / 21</div>
-                    <img src="images/bk_Listen to the Rain.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">17 / 21</div>
-                    <img src="images/bk_Loud Lion Quiet Mouse.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">18 / 21</div>
-                    <img src="images/bk_One Potato, Two Potato.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">19 / 21</div>
-                    <img src="images/bk_Silly Monsters at Mealtime.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">20 / 21</div>
-                    <img src="images/bk_Silly Monsters in the Bath.jpg" style="width:100%;">
-                </div>
-                <div class="myslides" style="display: none;">
-                    <div class="numbertext">21 / 21</div>
-                    <img src="images/bk_The Animal Pokey.jpg" style="width:100%;">
-                </div>
+        <section class=" container py-4" id ="childrensbooks-section">
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">1 / 21 </div>
+                            <img src="images/bk_Bedtime for Rainforest Babies BK.jpg" style="width:100%;">
+                        </div>  
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">2 / 21 </div>
+                            <img src="images/bk_Can You Make A Happy Face.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">3 / 21</div>
+                            <img src="images/bk_Can You Turn the Page.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">4 / 21</div>
+                            <img src="images/bk_Do You Know Noses.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">5 / 21</div>
+                            <img src="images/bk_Eat Your Colors.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">6 / 21</div>
+                            <img src="images/bk_Five Little Pumpkins.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">7 / 21</div>
+                            <img src="images/bk_I Love Bunnies.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">8 / 21</div>
+                            <img src="images/bk_I Love Dinosaurs.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">9 / 21</div>
+                            <img src="images/bk_I Love Kittens.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">10 / 21</div>
+                            <img src="images/bk_I Love Puppies.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">11 / 21</div>
+                            <img src="images/bk_I Love Trucks.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">12 / 21</div>
+                            <img src="images/bk_I'm Not Ready.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">13 / 21</div>
+                            <img src="images/bk_I'm Not Tired.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">14 / 21</div>
+                            <img src="images/bk_I See Animal Colors.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">15 / 21</div>
+                            <img src="images/bk_Knock, Knock! Who's There.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">16 / 21</div>
+                            <img src="images/bk_Listen to the Rain.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">17 / 21</div>
+                            <img src="images/bk_Loud Lion Quiet Mouse.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">18 / 21</div>
+                            <img src="images/bk_One Potato, Two Potato.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">19 / 21</div>
+                            <img src="images/bk_Silly Monsters at Mealtime.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">20 / 21</div>
+                            <img src="images/bk_Silly Monsters in the Bath.jpg" style="width:100%;">
+                        </div>
+
+                        <div class="myslides" style="display: none;">
+                            <div class="numbertext">21 / 21</div>
+                            <img src="images/bk_The Animal Pokey.jpg" style="width:100%;">
+                        </div>
 
             <!-- Next/Prev buttons-->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -149,70 +173,92 @@
             <!--Thumbmail Images-->
             <div class="row mt-3">
                  <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_Bedtime for Rainforest Babies BK.jpg" style="width:100%" onclick="currentSlide(1)" alt="Bedtime for Rainforest Babies BK">
+                    <img class="demo cursor" src="images/bk_Bedtime for Rainforest Babies BK.jpg" style="width:100%" onclick="openModal(); currentSlide(1)" alt="Bedtime for Rainforest Babies BK">
                 </div>
+
                  <div class=col-4 col-sm-3 col-md-2>
-                    <img class="demo cursor" src="images/bk_Can You Make A Happy Face.jpg" style="width:100%" onclick="currentSlide(2)" alt="Can You Make A Happy Face">
+                    <img class="demo cursor" src="images/bk_Can You Make A Happy Face.jpg" style="width:100%" onclick="openModal(); currentSlide(2)" alt="Can You Make A Happy Face">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_Can You Turn the Page.jpg" style="width:100%" onclick="currentSlide(3)" alt="Can You Turn the Page">
+                    <img class="demo cursor" src="images/bk_Can You Turn the Page.jpg" style="width:100%" onclick="openModal(); currentSlide(3)" alt="Can You Turn the Page">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_Do You Know Noses.jpg" style="width:100%" onclick="currentSlide(4)" alt="Do You Know Noses">
+                    <img class="demo cursor" src="images/bk_Do You Know Noses.jpg" style="width:100%" onclick="openModal(); currentSlide(4)" alt="Do You Know Noses">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_Eat Your Colors.jpg" style="width:100%" onclick="currentSlide(5)" alt="Eat Your Colors">
+                    <img class="demo cursor" src="images/bk_Eat Your Colors.jpg" style="width:100%" onclick="openModal(); currentSlide(5)" alt="Eat Your Colors">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_Five Little Pumpkins.jpg" style="width:100%" onclick="currentSlide(6)" alt="Five Little Pumpkins">
+                    <img class="demo cursor" src="images/bk_Five Little Pumpkins.jpg" style="width:100%" onclick="openModal(); currentSlide(6)" alt="Five Little Pumpkins">
                 </div>  
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_I Love Dinosaurs.jpg" style="width:100%" onclick="currentSlide(7)" alt="I Love Dinosaurs">  
+                    <img class="demo cursor" src="images/bk_I Love Dinosaurs.jpg" style="width:100%" onclick="openModal(); currentSlide(7)" alt="I Love Dinosaurs">  
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_I Love Kittens.jpg" style="width:100%" onclick="currentSlide(8)" alt="I Love Kittens">
+                    <img class="demo cursor" src="images/bk_I Love Kittens.jpg" style="width:100%" onclick="openModal(); currentSlide(8)" alt="I Love Kittens">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_I Love Puppies.jpg" style="width:100%" onclick="currentSlide(9)" alt="I Love Puppies">
+                    <img class="demo cursor" src="images/bk_I Love Puppies.jpg" style="width:100%" onclick="openModal();currentSlide(9)" alt="I Love Puppies">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_I Love Trucks.jpg" style="width:100%" onclick="currentSlide(10)" alt="I Love Trucks">
+                    <img class="demo cursor" src="images/bk_I Love Trucks.jpg" style="width:100%" onclick="openModal(); currentSlide(10)" alt="I Love Trucks">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_I'm Not Ready.jpg" style="width:100%" onclick="currentSlide(11)" alt="I'm Not Ready">
+                    <img class="demo cursor" src="images/bk_I'm Not Ready.jpg" style="width:100%" onclick="openModal(); currentSlide(11)" alt="I'm Not Ready">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_I'm Not Tired.jpg" style="width:100%" onclick="currentSlide(12)" alt="I'm Not Tired">
+                    <img class="demo cursor" src="images/bk_I'm Not Tired.jpg" style="width:100%" onclick="openModal(); currentSlide(12)" alt="I'm Not Tired">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_I See Animal Colors.jpg" style="width:100%" onclick="currentSlide(13)" alt="I See Animal Colors">
+                    <img class="demo cursor" src="images/bk_I See Animal Colors.jpg" style="width:100%" onclick="openModal(); currentSlide(13)" alt="I See Animal Colors">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_Knock, Knock! Who's There.jpg" style="width:100%" onclick="currentSlide(14)" alt="Knock, Knock! Who's There">
+                    <img class="demo cursor" src="images/bk_Knock, Knock! Who's There.jpg" style="width:100%" onclick="openModal(); currentSlide(14)" alt="Knock, Knock! Who's There">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_Listen to the Rain.jpg" style="width:100%" onclick="currentSlide(15)" alt="Listen to the Rain">
+                    <img class="demo cursor" src="images/bk_Listen to the Rain.jpg" style="width:100%" onclick="openModal(); currentSlide(15)" alt="Listen to the Rain">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_Loud Lion Quiet Mouse.jpg" style="width:100%" onclick="currentSlide(16)" alt="Loud Lion Quiet Mouse">
+                    <img class="demo cursor" src="images/bk_Loud Lion Quiet Mouse.jpg" style="width:100%" onclick="openModal(); currentSlide(16)" alt="Loud Lion Quiet Mouse">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_One Potato, Two Potato.jpg" style="width:100%" onclick="currentSlide(17)" alt="One Potato, Two Potato">
+                    <img class="demo cursor" src="images/bk_One Potato, Two Potato.jpg" style="width:100%" onclick="openModal(); currentSlide(17)" alt="One Potato, Two Potato">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_Silly Monsters at Mealtime.jpg" style="width:100%" onclick="currentSlide(18)" alt="Silly Monsters at Mealtime">
+                    <img class="demo cursor" src="images/bk_Silly Monsters at Mealtime.jpg" style="width:100%" onclick="openModal(); currentSlide(18)" alt="Silly Monsters at Mealtime">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_Silly Monsters in the Bath.jpg" style="width:100%" onclick="currentSlide(19)" alt="Silly Monsters in the Bath">
+                    <img class="demo cursor" src="images/bk_Silly Monsters in the Bath.jpg" style="width:100%" onclick="openModal(); currentSlide(19)" alt="Silly Monsters in the Bath">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_The Animal Pokey.jpg" style="width:100%" onclick="currentSlide(20)" alt="The Animal Pokey">
+                    <img class="demo cursor" src="images/bk_The Animal Pokey.jpg" style="width:100%" onclick="openModal(); currentSlide(20)" alt="The Animal Pokey">
                 </div>
+
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img class="demo cursor" src="images/bk_The Animal Pokey.jpg" style="width:100%" onclick="currentSlide(21)" alt="The Animal Pokey">
+                    <img class="demo cursor" src="images/bk_The Animal Pokey.jpg" style="width:100%" onclick="openModal(); currentSlide(21)" alt="The Animal Pokey">
                 </div>
-            </section>
-        </main>
+            </div>
+        </div>   
+        </section>
+    </main>
         <!--Footer Section -->
        
         <
