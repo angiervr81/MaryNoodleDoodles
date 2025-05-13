@@ -64,15 +64,19 @@ nav a:hover {
 .about-text {
     flex: 1;
 }
-.about-image img {
-   flex:1;
-   text-align: center;
-}    
+
 .about-image{
+    flex:1;
     text-align: center;
 }
+.about-image img {
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}    
 
-.grid {
+
+/*.grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 1rem;
@@ -92,4 +96,4 @@ nav a:hover {
     flex-direction: column;
     justify-content: column;
     margin-left: 600px
-}
+}*/
