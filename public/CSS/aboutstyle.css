@@ -73,26 +73,3 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }    
-
-
-/*.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 1rem;
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding : 0 1rem;
-}
-
-.grid img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-}
-
-.container {
-    flex-direction: column;
-    justify-content: column;
-    margin-left: 600px
-}*/
