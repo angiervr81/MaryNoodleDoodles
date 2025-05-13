@@ -4,11 +4,14 @@ body, h1, nav , a {
 }
 
 body{
-    background-color: lightskyblue;
-    font-family: "Coming Soon", cursive; /* Default font */
-    font-size: larger;
-    line-height: 1.10em;
-    letter-spacing: 0em;
+      body {
+      background-color: lightskyblue;
+      font-family: 'Coming Soon', cursive;
+      font-size: 18px;
+      line-height: 1.4;
+      margin: 0;
+      padding: 0;
+    }
 }
 
 header{
@@ -17,8 +20,9 @@ header{
 
 }
 
-header h1{
+header h1 {
     font-size: 2.5rem;
+    margin-top: 20px;
 }
 
 nav { 
@@ -35,6 +39,31 @@ nav a {
 
 nav a:hover {
     color: #333;
+}
+
+.fixed-width-container {
+    width: 960px;
+    margin: 0 auto;
+    }
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+}  
+
+.about-text {
+    flex: 1;
+}
+.about-image img {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}    
+.about-image{
+    text-align: center;
 }
 
 .grid {
