@@ -21,36 +21,35 @@ app.post('/send', async (req, res) => {
     // create a nodemailer transporter  
     const transporter = nodemailer.createTransport({
         service: 'Gmail',
-        auth:{   
-            user: 'marybeth.b.rivera@gmail.com',   // web owner's email address   
-            pass: ''
-        }
+        auth: {
+          user: process.env.EMAIL_USER,
+          pass: process.env.EMAIL_PASS
+        } 
     });
 
-    const mailOptions = {
-        from: email,    // sender address
-        to: '   ', // list of receivers (web owner's email address)
-        subject: 'Message from ${name}: ${subject}',   // Subject line
-        text: message,   // plain text body
-        html:`
-                <p><strong>Name:</strong> ${name}<p>
-                <p><strong>Email:</strong> ${email}<p>
-                <p><strong>Subject:</strong> ${subject}<p>
-                <p><strong>Message:</strong><br> ${message}<p>
-            `
+const mailOptions = {
+        from: email,
+        to: process.env.EMAIL_USER,
+        subject: `Message from ${name}: ${subject}`,
+        text: message,
+        html: `
+            <p><strong>Name:</strong> ${name}</p>
+            <p><strong>Email:</strong> ${email}</p>
+            <p><strong>Subject:</strong> ${subject}</p>
+            <p><strong>Message:</strong><br>${message}</p>
+        `
     };
 
-    try{
+    try {
         await transporter.sendMail(mailOptions);
         res.status(200).json({ message: 'Email sent successfully' });
     } catch (err) {
-        console.error('Error sending email:', error);
-        res.status(500).json({ message: 'Failed to sending email.' });
+        console.error('Error sending email:', err);
+        res.status(500).json({ message: 'Failed to send email.' });
     }
 });
 
 // Start the server
-
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost: ${PORT}`);
+    console.log(`Server is running on http://localhost:${PORT}`);
 });
