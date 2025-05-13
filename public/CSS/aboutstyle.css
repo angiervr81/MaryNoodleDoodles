@@ -1,15 +1,15 @@
 body, h1, nav , a { 
     margin: 10px;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 body{
     background-color: lightskyblue;
     font-family: 'Coming Soon', cursive; /* Default font */
     font-size: larger;
-    line-height: 1.14em;
-    letter-spacing: 0em ;
-    color:#333
+    line-height: 1.4;
+    letter-spacing: 0em;    
 }
 
 header{
@@ -47,10 +47,16 @@ nav a:hover {
 .fixed-width-container {
     width: 960px;
     margin: 0 auto;
-    }
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .about-section {
     display: flex;
-    align-items: flex-start;
+    flex-wrap: wrap;
     gap: 40px;
     margin-top: 40px;
 }  
@@ -59,11 +65,8 @@ nav a:hover {
     flex: 1;
 }
 .about-image img {
-    display: inline-block;
-    max-width: 400px;
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+   flex:1;
+   text-align: center;
 }    
 .about-image{
     text-align: center;
