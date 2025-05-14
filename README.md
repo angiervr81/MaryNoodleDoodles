@@ -6,10 +6,9 @@
   * [Usage](#usage)
   * [Features](#features)
   * [Technologies Used](#technologies-used)
-  * [Demos](#demos)
-  * [Contributing](#contributing)
+  * [Website](#website)
   * [License](#license)
-  * [Contact Information](#contact-information)
+
     
 ## Project-Description
 
@@ -34,23 +33,19 @@ This project will develop a professional, user-friendly website for MaryBeth But
 ## Technologies Used
 
   * Desing/Prototype: Figma
-  * Frontend: HTML, CSS, JavaScript (frameworks: React)
-  * Backend:  Node.js, EmailJS
-  * SEO Tools: Google Search Console, SEMrush
+  * Frontend: HTML(bootstrap (thumbnail),lightbox), CSS, JavaScript (frameworks: Vanilla)
+  * Backend:  Node.js, Nodemailer
+  * Hosting/Domian: Renber(hosting), GoDaddy(domain)
   * Version Control:  Git, GitHub
 
-## Demos
+## Website
+ [Check out the website here](https://www.marybethbutlerrivera.com/)
 
- ---- PENDING ----
-  
-## Contributors
- ---- PENDING ----
 
 ## License
----- PENDING ----
+© 2025 Marybeth Butler Rivera. All rights reserved.
   
-## Contact Information
----- PENIDING ----
+
 
 
 
